@@ -8,7 +8,7 @@ import org.newdawn.slick.state.StateBasedGame;
 public class FloorTile extends Tile {
 	
 	public FloorTile(float x, float y) {
-		super(0, 0, 16, 16);
+		super(112, 112, 16, 16);
 		this.x = x;
 		this.y = y;
 		solid = false;
